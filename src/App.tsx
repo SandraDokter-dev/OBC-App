@@ -6,6 +6,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Dashboard from "./pages/Dashboard";
 import Leaderboard from "./pages/Leaderboard";
 import Challenges from "./pages/Challenges";
+import Community from "./pages/Community";
+
 import Profile from "./pages/Profile";
 import NotFound from "./pages/NotFound";
 import BottomNav from "./components/BottomNav";
@@ -23,6 +25,7 @@ const App = () => (
             <Route path="/" element={<Dashboard />} />
             <Route path="/leaderboard" element={<Leaderboard />} />
             <Route path="/challenges" element={<Challenges />} />
+            <Route path="/community" element={<Community />} />
             <Route path="/profile" element={<Profile />} />
             <Route path="*" element={<NotFound />} />
           </Routes>

@@ -1,9 +1,10 @@
 import { NavLink, useLocation } from "react-router-dom";
-import { Home, Trophy, Zap, User } from "lucide-react";
+import { Home, Trophy, Zap, Users, User } from "lucide-react";
 
 const navItems = [
-  { to: "/", icon: Home, label: "Dashboard" },
+  { to: "/", icon: Home, label: "Home" },
   { to: "/leaderboard", icon: Trophy, label: "Ranking" },
+  { to: "/community", icon: Users, label: "Community" },
   { to: "/challenges", icon: Zap, label: "Challenges" },
   { to: "/profile", icon: User, label: "Profil" },
 ];
