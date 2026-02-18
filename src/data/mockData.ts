@@ -30,16 +30,16 @@ export const weekDays = [
 ];
 
 export const leaderboard = [
-  { rank: 1, name: "Lisa Schmidt", points: 3200, streak: 24, avatar: "LS", isCurrentUser: false },
-  { rank: 2, name: "Tom Wagner", points: 2800, streak: 16, avatar: "TW", isCurrentUser: false },
-  { rank: 3, name: "Max Müller", points: 2450, streak: 12, avatar: "MM", isCurrentUser: true },
-  { rank: 4, name: "Julia Becker", points: 2300, streak: 10, avatar: "JB", isCurrentUser: false },
-  { rank: 5, name: "Kai Fischer", points: 2100, streak: 8, avatar: "KF", isCurrentUser: false },
-  { rank: 6, name: "Anna Schulz", points: 1950, streak: 6, avatar: "AS", isCurrentUser: false },
-  { rank: 7, name: "Lena Meyer", points: 1800, streak: 14, avatar: "LM", isCurrentUser: false },
-  { rank: 8, name: "Ben Richter", points: 1650, streak: 4, avatar: "BR", isCurrentUser: false },
-  { rank: 9, name: "Sophie Klein", points: 1500, streak: 9, avatar: "SK", isCurrentUser: false },
-  { rank: 10, name: "Nico Braun", points: 1350, streak: 3, avatar: "NB", isCurrentUser: false },
+  { rank: 1, name: "Camp Rheinpark", city: "Köln", members: 32, points: 28400, avgStreak: 14, icon: "🏕️", isUserCamp: false },
+  { rank: 2, name: "Camp Stadtwald", city: "Köln", members: 24, points: 26200, avgStreak: 12, icon: "🌲", isUserCamp: true },
+  { rank: 3, name: "Camp Südstadt", city: "Köln", members: 28, points: 24800, avgStreak: 11, icon: "🔥", isUserCamp: false },
+  { rank: 4, name: "Camp Ehrenfeld", city: "Köln", members: 22, points: 22100, avgStreak: 9, icon: "⚡", isUserCamp: false },
+  { rank: 5, name: "Camp Nippes", city: "Köln", members: 26, points: 20500, avgStreak: 8, icon: "💪", isUserCamp: false },
+  { rank: 6, name: "Camp Deutz", city: "Köln", members: 20, points: 18900, avgStreak: 7, icon: "🏋️", isUserCamp: false },
+  { rank: 7, name: "Camp Lindenthal", city: "Köln", members: 18, points: 17200, avgStreak: 10, icon: "🌿", isUserCamp: false },
+  { rank: 8, name: "Camp Mülheim", city: "Köln", members: 30, points: 15800, avgStreak: 6, icon: "🎯", isUserCamp: false },
+  { rank: 9, name: "Camp Sülz", city: "Köln", members: 16, points: 14300, avgStreak: 5, icon: "⭐", isUserCamp: false },
+  { rank: 10, name: "Camp Kalk", city: "Köln", members: 21, points: 12700, avgStreak: 4, icon: "🦁", isUserCamp: false },
 ];
 
 export const challenges = [
